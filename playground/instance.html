@@ -7,10 +7,20 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      {{message}}
+      <!-- el 을 붙이는 순간 뷰의 기능과 속성들이 유효해짐 -->
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
-      var vm = new Vue();
+      var vm = new Vue({
+        //뷰에서 제공 하는 속성을 볼수있다. (뷰가 기능들과 속성들을 제공하고있다. )
+        el: "#app", //엘리먼트를 지정하는것이 필수
+        data: {
+          message: "hi",
+        },
+      });
     </script>
   </body>
 </html>
