@@ -10,3 +10,5 @@ https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-
 https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
 
 https://joshua1988.github.io/web-development/javascript/js-async-await/
+
+https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/
